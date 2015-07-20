@@ -1,16 +1,16 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |gem|
-  gem.name         = "cellumon"
-  gem.version      = "0.4.0"
+  gem.name         = "timespans"
+  gem.version      = "0.0.1"
   gem.platform     = Gem::Platform::RUBY
-  gem.summary      = "Monitor threads, processes, and states of Celluloid and its Actor System."
-  gem.description  = "Thread summary and reporting actor, utility for finding leaks and monitoring."
+  gem.summary      = "Time delineation and organization utilities."
+  gem.description  = "Time delineation and organization utilities."
   gem.licenses     = ["MIT"]
 
   gem.authors      = ["digitalextremist //"]
   gem.email        = ["code@extremist.digital"]
-  gem.homepage     = "https://github.com/abstractive/cellumon"
+  gem.homepage     = "https://github.com/abstractive/timespans"
 
   gem.required_ruby_version     = ">= 1.9.2"
   gem.required_rubygems_version = ">= 1.3.6"
