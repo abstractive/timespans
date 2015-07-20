@@ -1,12 +1,6 @@
 require 'date'
 require 'time'
 
-class String
-  def to_f
-    ('%.10f' % self).to_f
-  end
-end
-
 module Abstractive
   class TimeSpans
     module Methods
