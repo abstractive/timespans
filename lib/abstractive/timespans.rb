@@ -30,7 +30,6 @@ class Abstractive::TimeSpans
 
     def time_spans(length)
       milliseconds = nil
-      length = length
       if length.is_a?(Float)
         milliseconds = ((length - length.floor) * 100).to_i
         length = length.to_i
