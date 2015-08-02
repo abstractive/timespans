@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name         = "timespans"
-  gem.version      = "0.0.9"
+  gem.version      = "0.1.0"
   gem.platform     = Gem::Platform::RUBY
   gem.summary      = "Time delineation and organization utilities."
   gem.description  = "Time delineation and organization utilities."
